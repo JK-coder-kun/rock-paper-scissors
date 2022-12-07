@@ -29,14 +29,29 @@ img:hover{
 img:active{
     width: 302px;
 }
-.result{
-    margin: 50px 0px;
-    padding: 8px 0px;
-    background-color: lightblue;
+.result-container{
+    margin: 20px 0px;
     display: flex;
     justify-content: center;
-    align-self: center;
-    
+    align-content: center;
+}
+.point{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.computerPoint{
+    margin-right: auto;
+}
+.playerPoint{
+    margin-left: auto;
+}
+.result{
+    width: 400px;
+    background-color: lightblue;
     color: black;
-
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

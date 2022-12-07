@@ -1,0 +1,42 @@
+.container{
+    padding: 20px 300px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.img-container{
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+img{
+    width: 300px;
+    visibility: 0.5;
+}
+img:hover{
+    cursor: pointer;
+}
+img:active{
+    width: 302px;
+}
+.result{
+    margin: 50px 0px;
+    padding: 8px 0px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+    color: black;
+
+}
